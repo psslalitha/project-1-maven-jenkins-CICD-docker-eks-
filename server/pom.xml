@@ -44,21 +44,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <build>
-  <plugins>
-    <plugin>
-      <groupId>org.sonarsource.scanner.maven</groupId>
-      <artifactId>sonar-maven-plugin</artifactId>
-      <version>4.0.0.4121</version>
-      <configuration>
-        <properties>
-          <sonar.sources>server/src/main/java</sonar.sources>
-          <sonar.tests>server/src/test/java</sonar.tests>
-        </properties>
-      </configuration>
-    </plugin>
-  </plugins>
-</build>
+  
        
 
 </project>
